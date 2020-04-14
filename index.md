@@ -1,1 +1,159 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Chanel</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <script src="https://kit.fontawesome.com/9dea94aaec.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="nav">
+            <div class="contenedorlogo">
+                <img class="logo" src="images/logo.svg" alt="">
+                <label for="desplegar">&#9776;</label>
+            </div>
+                <input type="checkbox" id="desplegar">
+            <div class="menu">
+                <a href="#Episodios">EPISODIOS</a>
+                <a href="#Nosotros">NOSOTROS</a>
+                <a href="#Entrevistas">ENTREVISTAS</a>
+                <a href="#Topicos">TÓPICOS</a>
+            </div>
+        </div>
+        <section class="uno">
+            <div class= "contenedor-texto">
+                <h2 class="titulop2">
+                    Hello
+                </h2>
+                <h2 class="titulop3">
+                    world
+                </h2>
+                <h2 class="titulop4">
+                    pale blue dot<span>.</span>
+                </h2>
+                <h3 class="bajada">
+                    Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+                </h3>
+                <h3 class="bajadadesktop">
+                    El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+                </h3>
+            </div>
+            <button class="botonuno">
+                CONOCÉ MÁS
+            </button>
+        </section>
+        <section class="seccion">
+            <div class="episodios">
+                <h4 class="cabezal">
+                Episodios
+                </h4>
+                <div class="cuadricula">
+                <div class="listado">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="listado">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="listado">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="listado">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="dedonde">
+            <div class="cont-dedonde">
+                <img class="imgtelefono" src="images/phone.png" alt="La imagen de un teléfono">
+                <div class="cuadriculadedonde">
+                <h4 class="cabezal2">
+                De dónde <br> venimos
+                </h4>
+                <h4 class="cabezal2desktop">
+                    De dónde venimos
+                    </h4>
+                <div class="bajadados">
+                    <h5 class="parrafo">
+                        Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point pale light. 
+                    </h5>
+                    <br>
+                    <h5 class="parrafo">
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                    </h5>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="invitados">
+            <h4 class="cabezal3celu">
+                Invitada/os <br> especiales
+                </h4>
+            <h4 class="cabezal3desktop">
+                    Invitada/os estelares
+                    </h4>      
+            <div class="galeria">
+                <img class="gal" src="images/grace-hopper.png" alt="">
+                <img class="gal" src="images/Katie-Bouman.png" alt="">
+                <img class="gal" src="images/Margaret_Hamilton.png" alt="">
+                <img class="gal" src="images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+                <img class="gal" src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img class="gal" src="images/susan-kare.png" alt="">
+            </div>
+        </section>
+        <section class="temas">
+            <div class="cont-temas">
+            <h4 class="cabezal4">
+                Algunos de <br> nuestros temas
+                </h4>
+                <h4 class="cabezall4desktop">
+                    Algunos de nuestros temas
+                    </h4>
+                <div class="temasgal">
+                    <div class="gal10">
+                        <img class="img1" src="images/icon1.svg" alt="">
+                        <p> Trabajo remoto </p> 
+                    </div>
+                    <div class="gal10">
+                        <img class="img1" src="images/icon2.svg" alt="">
+                        <p> Repensando <br> la programación</p>
+                    </div>
+                    <div class="gal10">
+                        <img class="img1" src="images/icon3.svg" alt="">
+                        <p> Bases de código </p>
+                    </div>
+                    <div class="gal10">
+                        <img class="img1" src="images/icon4.svg" alt="">
+                        <p> Seguridad informática </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cierre">
+            <div class="trapecio">
+                <p class="texto"> ¿Querés las <br>
+                últimas <br>
+                novedades? <br></p>
+                <button class="botondos">
+                    ESCUCHÁ LOS EPISODIOS
+                </button>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="final">
+                <div class="finaltexto">
+                    <p>© 2019— Hello blue pale dot</p>
+                </div>
+                <div class="finaliconos">
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-telegram"></i>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
