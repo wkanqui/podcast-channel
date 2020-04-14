@@ -40,6 +40,10 @@ html, body {
     font-size: 12px;
     padding: 0px 0px 5px 10px;
 }
+.menu a:hover {
+color: #00F3BB;
+text-decoration: line-through;
+}
 label {
     margin: 0px 0px 0px 0px;
     font-size: 19px;
