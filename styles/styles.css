@@ -143,6 +143,7 @@ h2 span {
     display: flex;
     background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 100%);
     clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    -webkit-clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
     flex-direction: column;
 }
 
@@ -397,6 +398,7 @@ padding: 10px 0px;
         height: 1042px;
         background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 100%);
         clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+        -webkit-clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
     }
     .cabezal {
         box-sizing: border-box;
