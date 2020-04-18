@@ -316,6 +316,9 @@ padding: 10px 0px;
 .cabezal3desktop {
     display: none;
 }
+.finaliconos a {
+    color: black
+}
 
 @media screen and (min-width:1200px) {
     .uno {
@@ -547,5 +550,8 @@ padding: 10px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .finaliconos a {
+        color: black
     }
 }
