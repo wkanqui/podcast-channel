@@ -322,7 +322,7 @@ padding: 10px 0px;
     color: black
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1440px) {
     .uno {
         background-color: white;
     }
@@ -558,4 +558,53 @@ padding: 10px 0px;
     .finaliconos a {
         color: black
     }
+    body {
+        width: 1440px;
+        height: auto;
+        margin: auto;
+        box-shadow: 2px 2px 15px black; 
+    }
+}
+
+
+@media screen and (max-width:1439px) and (min-width:600px) {
+  
+    .contenedor-texto {
+        display: flex;
+        flex-direction: column;
+    }
+    .titulop1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botonuno {
+        width: 226px;
+        height: 56px;
+        font-size: 18px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 56px;
+
+    }
+    .contenedor-texto h2 {
+        text-align: center; 
+        display: inline;
+        font-size: 50px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+    h2 span {
+        color: #0000EC;
+    }
+    
+    h3.bajada {
+        width: 550px;
+        height: 66px;
+        margin-block-end: auto;
+        margin-block-start: auto;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+        
 }
