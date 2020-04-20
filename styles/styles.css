@@ -1,3 +1,4 @@
+/* Todo anda bien */
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +62,7 @@ label {
     display: none;
 }
 
-#desplegar:checked + .menu {
+#desplegar:checked ~ .menu {
     display: block;
 }
 
