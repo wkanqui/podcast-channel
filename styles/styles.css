@@ -11,7 +11,7 @@ html, body {
     width: 24px;
     margin-left: 16px;
 }
-.nav {
+.navegador {
     height: 44px;
     line-height: 44px;
     background-color: white;
@@ -292,7 +292,7 @@ padding: 10px 0px;
     font-weight: 600;
     text-align: center;
 }
-.uno {
+.seccion-inicio {
     z-index: -1;
 }
 .final {
@@ -322,14 +322,17 @@ padding: 10px 0px;
     color: black
 }
 
+h6 {
+    display: none;
+}
 @media screen and (min-width:1440px) {
-    .uno {
+    .seccion-inicio {
         background-color: white;
     }
     .contenedor-texto {
         margin-left: 200px;
     }
-    .nav {
+    .navegador {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -572,6 +575,7 @@ padding: 10px 0px;
     .contenedor-texto {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .titulop1 {
         margin-left: auto;
@@ -591,8 +595,6 @@ padding: 10px 0px;
         text-align: center; 
         display: inline;
         font-size: 50px;
-        margin-inline-start: auto;
-        margin-inline-end: auto;
     }
     h2 span {
         color: #0000EC;
@@ -601,10 +603,8 @@ padding: 10px 0px;
     h3.bajada {
         width: 550px;
         height: 66px;
-        margin-block-end: auto;
-        margin-block-start: auto;
-        margin-inline-start: auto;
-        margin-inline-end: auto;
+        text-align: center;
+
     }
         
 }
