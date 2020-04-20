@@ -25,7 +25,8 @@ html, body {
 .contenedorlogo {
     display: flex;
     justify-content: space-between;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    flex-wrap: wrap;
 }
 .menu a {
     text-decoration: none;
@@ -61,9 +62,18 @@ label {
 #desplegar {
     display: none;
 }
+.cerrar {
+    display: none;
+}
 
 #desplegar:checked ~ .menu {
     display: block;
+}
+#desplegar:checked ~ .cerrar {
+    display: block;
+}
+#desplegar:checked ~ .visible {
+    display: none;
 }
 
 .contenedor-texto {
@@ -335,15 +345,13 @@ h6 {
     }
     .navegador {
         display: flex;
-        width: 100%;
         justify-content: space-evenly;
         background-color: white;
-        height: 80px;
+        height: 80px; 
     }
     .contenedorlogo {
-        width: 60%;
-        display: flex;
-        
+        width: 100%;
+        display: flex;    
     }
     .menu {
         width: 40%;
@@ -599,7 +607,7 @@ h6 {
     }
     h2 span {
         color: #0000EC;
-    }
+    }    
     
     h3.bajada {
         width: 550px;
