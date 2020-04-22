@@ -37,6 +37,7 @@ html, body {
     color: white;
     line-height: 50px;
     display: block;
+    
     text-align: left;
     background-color: blue;
     font-family: 'IBM Plex Mono', monospace;
@@ -309,7 +310,9 @@ padding: 10px 0px;
     font-weight: 600;
     text-align: center;
 }
-
+.informaticadesktop {
+    display: none;
+}
 .final {
     padding: 30px 0px;
     display: flex;
@@ -340,7 +343,6 @@ padding: 10px 0px;
 h6 {
     display: none;
 }
-
 @media screen and (min-width:1440px) {
     .seccion-inicio {
         background-color: white;
@@ -520,6 +522,12 @@ h6 {
         margin: 13px 0px;
         justify-content: start;
     }
+    .informaticamobile {
+        display: none;
+    }
+    .informaticadesktop {
+        display: inline;
+    }
     .temasgal {
         width: auto;
         margin-left: 200px ;
@@ -575,6 +583,7 @@ h6 {
     .finaliconos a {
         color: black
     }
+    
     body {
         width: 1440px;
         height: auto;
@@ -583,8 +592,259 @@ h6 {
     }
 }
 
+/* 1024 */
+@media screen and (max-width: 1439px) and (min-width: 1025px) {
+    .seccion-inicio {
+        background-color: white;
+    }
+    .contenedor-texto {
+        margin-left: 13%;
+    }
+    .navegador {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        height: 80px; 
+    }
+    .contenedorlogo {
+        width: 100%;
+        display: flex;    
+    }
+    .menu {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 1.3%;
+    }
+    .menu a {
+        background-color: white;
+        color: #060A24;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    label {
+        display: none;
+    }
+    .logo {
+        width: 36px;
+        height: 36px;
+        margin-left: 7.5%;
+        margin-top: 22px;
+    }
+    .botonuno {
+        width: 226px;
+        height: 56px;
+        font-size: 18px;
+        margin-left: 13%;
+        margin-top: 56px;
+    }
+    .contenedor-texto h2 {
+        display: inline;
+        font-size: 64px;
+    }
+    h2 span {
+        color: #0000EC;
+    }
+    .bajada {
+        display: none;
+    }
+    .bajadadesktop {
+        display: block;
+        box-sizing: border-box;
+        width: 628px;
+        height: 48px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: justify;
+        color: #060a24;
+    }
+    .episodios {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+        height: 1042px;
+        background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 100%);
+        clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+        -webkit-clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0% 100%);
+    }
+    .cabezal {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 13%;
+        margin-top: 186px;
+        font-size: 48px;
+    }
+    .listado {
+        margin: 1.5% 1.5%;
+        width: 40.5%;
+        height: 232px;
+        padding: 0;
+    }
+    .cuadricula {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .cont-dedonde {
+        display: flex;
+        flex-direction: row;
+    }
+    .imgtelefono {
+        width: 31.7%;
+        margin-left: 13%;
+        transform: translateY(-120px);
+    }
+    .bajadados {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 464px;
+        height: 204px;
+        margin-left: 64px;
 
-@media screen and (max-width:1439px) and (min-width:600px) {
+    }
+    .bajadados h5 {
+        font-size: 16px;
+        text-align: start;
+        font-family: 'IBM Plex Mono', sans-serif;
+        line-height: 24px;
+        color: #060A24;
+    }
+    .cabezal2 {
+        display: none;
+    }
+    .cabezal2desktop {
+        display: inline;
+        box-sizing: border-box;
+        color: #060A24 ;
+        font-family: 'IBM Plex Sans', sans-serif ;
+        font-size: 48px;
+        margin: 0px 16px 0px 64px;
+    }
+    .cuadriculadedonde {
+        margin-top: 70px;
+    }
+    .cabezal3celu {
+        display: none;
+    }
+    .cabezal3desktop {
+        display: block;
+        color: #060A24 ;
+        box-sizing: border-box;
+        width: 481px;
+        line-height: 42px;
+        font-family: 'IBM Plex Sans', sans-serif ;
+        font-size: 48px;
+        margin: 0px 0px 16px 16px;
+        margin-left: 13%;
+    }
+    .galeria {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 36px;
+    }
+    .gal {
+        max-width: 33%;
+        width: 100%;
+    }
+    .cabezall4desktop {
+        display: block;
+        color: #060A24;
+        box-sizing: border-box;
+        width: 586px;
+        line-height: 62px;
+        font-family: 'IBM Plex Sans', sans-serif ;
+        font-size: 48px;
+        margin: 64px 1.1% 0px 13%;
+    }
+    .cabezal4 {
+        display: none;
+    }
+    .gal10 {
+        width: auto;
+        height: auto;
+        margin: 1% 0px;
+        justify-content: start;
+    }
+    .informaticamobile {
+        display: none;
+    }
+    .informaticadesktop {
+        display: inline;
+    }
+    .temasgal {
+        width: auto;
+        margin-left: 13% ;
+        margin-right: 13% ;
+    }
+    .texto {
+        margin-top: 213px;
+        display: block;
+        width: 692px;
+        height: 62px;
+        box-sizing: border-box;
+        font-size: 48px;
+
+    }
+    .texto br {
+       display: none;
+    }
+    .botondos {
+        width: 345px;
+        height: 56px;
+        font-size: 18px;
+    }
+    .final {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 36px 0px 31px 0px;
+    }
+    .finaltexto {
+        width: 50%;
+        margin-left: 7.5%;
+        font-size: 16px;
+    }
+    .finaliconos {
+        width: 200px;
+        padding: 0;
+        margin-right: 7.5px;
+    }
+    i {
+        width: 100%;
+        height: 100%;
+    }
+    .trapecio {
+        width: 100%;
+        height: 518px;
+        background: linear-gradient(225deg, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 100%);
+        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .finaliconos a {
+        color: black
+    }
+    body {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        box-shadow: 2px 2px 15px black; 
+    }
+}
+
+
+@media screen and (max-width: 999px) and (min-width:600px) {
   
     .contenedor-texto {
         display: flex;

@@ -1,4 +1,6 @@
 Mi sitio se encuentra aquí: 
 https://wkanqui.github.io/podcast-channel/
 
-Está optimizado para 320px de ancho (versión móvil) y 1440px o más
+Está optimizado para 320px de ancho (versión móvil) y 1440px o más.
+
+Segunda iteración, agregué, por pedido de la correctora, una nueva media query a los 1024px, para optimizar la visualización en desktop.
